@@ -20,6 +20,14 @@ article {
     padding: 10px;
     background-color: #ffffff;
 }
+article h1, article h2, article h3 {
+    color: #004080;
+}
+
+article p {
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
 
 aside {
     flex: 1;                 /* Takes 1/3 of available space */
@@ -41,4 +49,56 @@ footer {
     color: white;
     padding: 10px;
     text-align: center;
+}
+/* Background and text color */
+body {
+    background-color: #f0f2f5;
+    color: #333;
+}
+
+/* Header customization */
+header {
+    background-color: #004080;
+    color: white;
+    padding: 10px;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+header li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header li a:hover {
+    text-decoration: underline;
+}
+
+/* Logo styling */
+.logo {
+    font-size: 2rem; 
+    font-weight: bold;
+}
+
+/* Article styling */
+article {
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer {
+    background-color: #004080;
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
