@@ -24,3 +24,6 @@ a {
 a:hover {
     text-decoration: underline;
 }
+.works_on_smartphone main {
+    flex-direction: column;
+}
